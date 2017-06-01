@@ -11,7 +11,7 @@ namespace SRP_Follow
     /// </summary>
     public class DataStore
     {
-        private ITempStoreRepository _repository;
+        private readonly ITempStoreRepository _repository;
 
         public DataStore(ITempStoreRepository repository)
         {

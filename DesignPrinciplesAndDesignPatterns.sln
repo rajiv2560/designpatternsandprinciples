@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP-Violation", "SRP-Violat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP-Follow", "SRP-Follow\SRP-Follow.csproj", "{94E80E2F-2677-45A4-BD5D-9FD2E3571A59}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolidPrinciples", "SolidPrinciples", "{6E1FDBB6-7400-4024-B22D-F3126199556A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{8437B118-2B7B-4886-B8A6-28F9A225DC9A} = {6E1FDBB6-7400-4024-B22D-F3126199556A}
 		{C729EEDE-1D40-43AA-BCD1-9C84876D14BB} = {8437B118-2B7B-4886-B8A6-28F9A225DC9A}
 		{94E80E2F-2677-45A4-BD5D-9FD2E3571A59} = {8437B118-2B7B-4886-B8A6-28F9A225DC9A}
 	EndGlobalSection

@@ -29,7 +29,7 @@
         </TextBlock>
 
         <TextBox Grid.Row="1"
-                 Text="{Binding NewAccount.ValidationMessage}"
+                 Text="{Binding NewAccount.Password}"
                  Width="200"
                  HorizontalAlignment="Center"
                  Padding="5" Margin="5">

@@ -43,7 +43,11 @@ namespace Engine.MVVMPattern.PatternVersion.Models
 
         public void ValidatePassword()
         {
-            if (Password.Trim().Length < 8)
+            if (Password == null)
+            {
+                ValidationMessage = "Password must be at least eight characters long";
+            }
+            else if (Password.Trim().Length < 8)
             {
                 ValidationMessage = "Password must be at least eight characters long";
             }

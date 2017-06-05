@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Engine.MVVMPattern.PatternVersion.ViewModels;
 
 namespace WorkbenchWPF.MVVMPattern.VersionPattern
 {
@@ -19,9 +20,18 @@ namespace WorkbenchWPF.MVVMPattern.VersionPattern
     /// </summary>
     public partial class AccountCreationView : Window
     {
+        private readonly AccountCreationViewModel _accountCreationViewModel = new AccountCreationViewModel();
+
         public AccountCreationView()
         {
             InitializeComponent();
+
+            DataContext = _accountCreationViewModel;
+        }
+
+        private void OnClick_ValidatePassword(object sender, RoutedEventArgs e)
+        {
+            _accountCreationViewModel.ValidatePassword();
         }
     }
 }

@@ -4,9 +4,42 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WorkbenchWPF.MVVMPattern.VersionPattern"
+        xmlns:viewModels="clr-namespace:Engine.MVVMPattern.PatternVersion.ViewModels;assembly=Engine"
+        d:DataContext="{d:DesignInstance viewModels:AccountCreationViewModel}"
         mc:Ignorable="d"
-        Title="AccountCreationView" Height="300" Width="300">
-    <Grid>
-        
+        Title="AccountCreationView" Height="300" Width="400">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Text="{Binding NewAccount.ValidationMessage}"
+                   Foreground="Red"
+                   TextWrapping="Wrap"
+                   Width="200"
+                   HorizontalAlignment="Center"
+                   Padding="5" Margin="5">
+        </TextBlock>
+
+        <TextBox Grid.Row="1"
+                 Text="{Binding NewAccount.ValidationMessage}"
+                 Width="200"
+                 HorizontalAlignment="Center"
+                 Padding="5" Margin="5">
+        </TextBox>
+
+        <Button Grid.Row="2" Content="Check Password"
+                Click="OnClick_ValidatePassword"
+                Width="200"
+                HorizontalAlignment="Center"
+                Padding="5" Margin="5">
+        </Button>
     </Grid>
 </Window>

@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="MVVMPattern\PatternVersion\Models\AccountModel.cs" />
     <Compile Include="MVVMPattern\PatternVersion\ViewModels\AccountCreationViewModel.cs" />
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

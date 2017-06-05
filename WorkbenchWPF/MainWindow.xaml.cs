@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WorkbenchWPF.MVVMPattern.NonPatternVersion;
+using WorkbenchWPF.MVVMPattern.VersionPattern;
 
 namespace WorkbenchWPF
 {
@@ -34,7 +35,8 @@ namespace WorkbenchWPF
 
         private void OnClick_MVVMPattern_PatternVersion(object sender, RoutedEventArgs e)
         {
-
+            MVVMPattern.VersionPattern.AccountCreationView view = new MVVMPattern.VersionPattern.AccountCreationView();
+            view.ShowDialog();
         }
     }
 }

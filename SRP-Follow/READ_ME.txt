@@ -2,7 +2,7 @@
 	responsible for saving data. That means it should not also be 
 	responsible for retrieving data or any other tasks.
 
-Implementation:
+Implementation for SRP:
 	1. Contact external servers
 	2. Sync/fetch data
 	3. Analyze/scan data

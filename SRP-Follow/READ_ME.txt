@@ -3,6 +3,7 @@
 	responsible for retrieving data or any other tasks.
 
 Implementation for SRP:
+
 	1. Contact external servers
 	2. Sync/fetch data
 	3. Analyze/scan data

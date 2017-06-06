@@ -8,7 +8,6 @@ namespace OCP_Follow
 {
     public class Program
     {
-        // test
         public static void Main(string[] args)
         {
             var sourceServerData = new List<SourceServerData>();

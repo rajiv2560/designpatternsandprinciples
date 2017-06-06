@@ -44,7 +44,12 @@
     <Compile Include="MVVMPattern\PatternVersion\ViewModels\AccountCreationViewModel.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingletonPattern\NonPatternVersion\Customer.cs" />
+    <Compile Include="SingletonPattern\NonPatternVersion\Logger.cs" />
+    <Compile Include="SingletonPattern\PatternVersion_DoubleLock\Logger.cs" />
+    <Compile Include="SingletonPattern\PatternVersion_StaticInitialization\Logger.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

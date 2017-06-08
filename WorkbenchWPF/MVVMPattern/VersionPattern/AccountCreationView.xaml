@@ -35,7 +35,7 @@
                  Padding="5" Margin="5">
         </TextBox>
 
-        <Button Grid.Row="2" Content="Check Password"
+        <Button Grid.Row="2" Content="Verify Password"
                 Click="OnClick_ValidatePassword"
                 Width="200"
                 HorizontalAlignment="Center"

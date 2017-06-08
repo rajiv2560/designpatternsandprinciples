@@ -11,15 +11,10 @@ namespace Engine.MVVMPattern.PatternVersion.Models
 {
     public class AccountModel : INotifyPropertyChanged
     {
-        private string _userName;
         private string _passwword;
         private string _validationMessage;
 
-        public string UserName
-        {
-            get { return _userName; }
-            set { _userName = value; }
-        }
+        public string UserName { get; set; }
 
         public string Password
         {

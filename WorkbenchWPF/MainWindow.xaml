@@ -11,20 +11,30 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <Button Grid.Row="0"
                 Width="300"
                 HorizontalAlignment="Center"
                 Padding="5" Margin="5"
-                Content="MVVM Pattern: Non-pattern version"
-                Click="OnClick_MVVMPattern_NonPatternVersion"/>
+                Content="MVVM Pattern: Non-pattern version (Verify Password)"
+                Click="OnClick_MVVMPattern_NonPatternVersion_VerifyPassword"/>
+
         <Button Grid.Row="1"
                 Width="300"
                 HorizontalAlignment="Center"
                 Padding="5" Margin="5"
-                Content="MVVM Pattern: Pattern version" 
-                Click="OnClick_MVVMPattern_PatternVersion"/>
+                Content="MVVM Pattern: Pattern version (Verify Password)" 
+                Click="OnClick_MVVMPattern_PatternVersion__VerifyPassword"/>
+
+        <Button Grid.Row="2"
+                Width="300"
+                HorizontalAlignment="Center"
+                Padding="5" Margin="5"
+                Content="MVVM Pattern: Pattern version (Students Details)" 
+                Click="OnClick_MVVMPattern_PatternVersion_StudentDetails"/>
     </Grid>
 
 </Window>

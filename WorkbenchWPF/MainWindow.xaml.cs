@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Engine.MVVMPattern.PatternVersion.ViewModels;
 using WorkbenchWPF.MVVMPattern.NonPatternVersion;
 using WorkbenchWPF.MVVMPattern.VersionPattern;
 
@@ -27,15 +28,21 @@ namespace WorkbenchWPF
             InitializeComponent();
         }
 
-        private void OnClick_MVVMPattern_NonPatternVersion(object sender, RoutedEventArgs e)
+        private void OnClick_MVVMPattern_NonPatternVersion_VerifyPassword(object sender, RoutedEventArgs e)
         {
-            MVVMPattern.NonPatternVersion.AccountCreationView view = new MVVMPattern.NonPatternVersion.AccountCreationView();
+            var view = new MVVMPattern.NonPatternVersion.AccountCreationView();
             view.ShowDialog();
         }
 
-        private void OnClick_MVVMPattern_PatternVersion(object sender, RoutedEventArgs e)
+        private void OnClick_MVVMPattern_PatternVersion__VerifyPassword(object sender, RoutedEventArgs e)
         {
-            MVVMPattern.VersionPattern.AccountCreationView view = new MVVMPattern.VersionPattern.AccountCreationView();
+            var view = new MVVMPattern.VersionPattern.AccountCreationView();
+            view.ShowDialog();
+        }
+
+        private void OnClick_MVVMPattern_PatternVersion_StudentDetails(object sender, RoutedEventArgs e)
+        {
+            var view = new StudentView1();
             view.ShowDialog();
         }
     }

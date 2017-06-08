@@ -42,7 +42,7 @@ namespace WorkbenchWPF
 
         private void OnClick_MVVMPattern_PatternVersion_StudentDetails(object sender, RoutedEventArgs e)
         {
-            var view = new StudentView1();
+            var view = new StudentView();
             view.ShowDialog();
         }
     }

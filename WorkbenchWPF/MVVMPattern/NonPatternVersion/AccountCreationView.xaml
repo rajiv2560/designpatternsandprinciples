@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WorkbenchWPF.MVVMPattern.NonPatternVersion"
         mc:Ignorable="d"
-        Title="MVVM: Non-Pattern Version" Height="300" Width="300">
+        Title="MVVM: Non-Pattern Version" Height="300" Width="400"
+        WindowStartupLocation="CenterScreen">
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>

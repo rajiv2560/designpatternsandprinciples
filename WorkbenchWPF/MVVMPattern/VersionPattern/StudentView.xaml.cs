@@ -18,10 +18,10 @@ namespace WorkbenchWPF.MVVMPattern.VersionPattern
     /// <summary>
     /// Interaction logic for StudentView.xaml
     /// </summary>
-    public partial class StudentView1 : Window
+    public partial class StudentView : Window
     {
         private readonly StudentViewModel _studentViewModel = new StudentViewModel();
-        public StudentView1()
+        public StudentView()
         {
             InitializeComponent();
 

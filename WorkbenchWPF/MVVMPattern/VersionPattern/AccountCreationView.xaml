@@ -7,7 +7,9 @@
         xmlns:viewModels="clr-namespace:Engine.MVVMPattern.PatternVersion.ViewModels;assembly=Engine"
         d:DataContext="{d:DesignInstance viewModels:AccountCreationViewModel}"
         mc:Ignorable="d"
-        Title="AccountCreationView" Height="300" Width="400">
+        Title="AccountCreationView" Height="300" Width="400"
+        WindowStartupLocation="CenterScreen">
+    
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>

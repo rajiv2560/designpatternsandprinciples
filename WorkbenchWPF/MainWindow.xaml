@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WorkbenchWPF"
         mc:Ignorable="d"
-        Title="MVVM Demo Project" Height="350" Width="525">
+        Title="MVVM Demo Project" Height="350" Width="525"
+        WindowStartupLocation="CenterScreen">
 
-    <Grid>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>

@@ -2,6 +2,9 @@
 	responsible for saving data. That means it should not also be 
 	responsible for retrieving data or any other tasks.
 
+-	Class has single responsibility + Class has only one reason to change => Single Responsibility Principle.
+-	This means that every class or similar structure, in code should have only one job to do. Everything in that class should be related
+
 Implementation for SRP:
 
 	1. Contact external servers

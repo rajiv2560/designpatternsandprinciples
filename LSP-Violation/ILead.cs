@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LSP_Follow
+namespace LSP_Violation
 {
-    public class Program
+    interface ILead
     {
-        public static void Main(string[] args)
-        {
-        }
+        void CreateTask();
+        void AssignTask();
+        void WorkOnTask();
     }
 }

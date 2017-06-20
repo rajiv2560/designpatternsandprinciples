@@ -1,0 +1,1 @@
+﻿-	The clients should not be forced to implements interfaces they don't use.

@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LSP_Follow
+namespace ISP_Follow
 {
-    public class Program
+    public interface ILead
     {
-        public static void Main(string[] args)
-        {
-        }
+        void AssignTask();
+        void CreateTask();
     }
 }

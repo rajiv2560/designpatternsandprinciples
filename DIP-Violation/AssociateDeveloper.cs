@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LSP_Violation
+namespace DIP_Violation
 {
-    class Program
+    public class AssociateDeveloper
     {
-        public static void Main(string[] args)
+        public void WriteCode()
         {
+            // Write small modules
         }
     }
 }

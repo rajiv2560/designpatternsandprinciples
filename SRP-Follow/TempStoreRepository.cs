@@ -10,7 +10,7 @@ namespace SRP_Follow
     {
         public bool Store(InternalServerData data)
         {
-            // logic to stroe data in temp storage.
+            // logic to store data in temp storage.
             return true;
         }
     }

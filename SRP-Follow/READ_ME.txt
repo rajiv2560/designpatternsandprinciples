@@ -3,7 +3,8 @@
 	responsible for retrieving data or any other tasks.
 
 -	Class has single responsibility + Class has only one reason to change => Single Responsibility Principle.
--	This means that every class or similar structure, in code should have only one job to do. Everything in that class should be related
+-	This means that every class or similar structure, in code should have only one job to do. Everything in that class should be related to a single purpose.
+	
 
 Implementation for SRP:
 

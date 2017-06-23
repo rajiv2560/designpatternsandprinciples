@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LSP_Violation
+namespace DIP_Follow
 {
-    interface ILead
+    public interface IDeveloper
     {
-        void CreateTask();
-        void AssignTask();
-        void WorkOnTask();
+        void WriteCode();
     }
 }

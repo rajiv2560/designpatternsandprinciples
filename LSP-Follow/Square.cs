@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LSP_Violation
+namespace LSP_Follow
 {
-    class Program
+    public class Square : Shape
     {
-        public static void Main(string[] args)
+        public int Side;
+        public override int Area()
         {
+            return Side * Side;
         }
     }
 }

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace LSP_Follow
 {
-    public class Program
+    public abstract class Shape
     {
-        public static void Main(string[] args)
-        {
-        }
+        public abstract int Area();
     }
 }
